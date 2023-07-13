@@ -8,7 +8,12 @@
 </head>
 <main>
     <header >
-        <button class="carr">carrito</button>
+        <div class="carr">                                                     
+        <img  id="ca"src="../images/th.jpg" alt="">
+        </div>
+        <span id="contador">0</span>
+        
+   
         <p class="rel">RELOJES</p>
         <nav class="nav">
 
@@ -22,15 +27,16 @@
 
         <div class="container">
             <p class="title"><b>PRODUCTOS</b></p>
-            <div class="card"><img src="../images/1rolex.webp" alt="" class="card-image"><br>500.000 <br> <button>agregar al carrito </button></div>
-            <div class="card"><img src="../images/2relox.jpg" alt="" class="card-image"><br>700.000  <br> <button>agregar al carrito </button></div>
-            <div class="card"><img src="../images/3rolex.webp" alt="" class="card-image"><br>600.000  <br> <button>agregar al carrito </button></div>
-            <div class="card"><img src="../images/4rolex.jpg" alt="" class="card-image"><br>1.000.000  <br> <button>agregar al carrito </button></div>
-            <div class="card"><img src="../images/5rolex.jpg" alt="" class="card-image"><br>5.000.000  <br> <button>agregar al carrito </button></div>
-            <div class="card"><img src="../images/6rolex.jpg" alt="" class="card-image"><br>3.000.000  <br> <button>agregar al carrito </button></div>
+            <div class="card"><img src="../images/1rolex.webp" alt="" class="card-image"><br>500.000 <br> <button onclick="agregar()">agregar al carrito </button><br><button onclick="eliminar()">eliminar </button></div>
+            <div class="card"><img src="../images/2relox.jpg" alt="" class="card-image"><br>700.000  <br> <button onclick="agregar()">agregar al carrito </button><br><button onclick="eliminar()">eliminar </button></div>
+            <div class="card"><img src="../images/3rolex.webp" alt="" class="card-image"><br>600.000  <br> <button onclick="agregar()">agregar al carrito </button><br><button onclick="eliminar()">eliminar </button></div>
+            <div class="card"><img src="../images/4rolex.jpg" alt="" class="card-image"><br>1.000.000  <br> <button onclick="agregar()">agregar al carrito </button><br><button onclick="eliminar()">eliminar </button></div>
+            <div class="card"><img src="../images/5rolex.jpg" alt="" class="card-image"><br>5.000.000  <br> <button onclick="agregar()">agregar al carrito </button><br><button onclick="eliminar()">eliminar </button></div>
+            <div class="card"><img src="../images/6rolex.jpg" alt="" class="card-image"><br>3.000.000  <br> <button onclick="agregar()">agregar al carrito </button><br><button onclick="eliminar()">eliminar </button></div>
         </div>
     </div>
     
 </main>
+<script src="../js/carr.js"> </script>
 </body>
 </html>
