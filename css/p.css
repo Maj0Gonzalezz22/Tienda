@@ -1,6 +1,39 @@
+*{
+    margin: 0; 
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(97, 96, 96);
+    padding: 25px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .rel{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma;
+    margin: 0px 20px 0px;
+}
+header .nav a{
+    font-size: 22px;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma;
+}
+header .nav a:hover{
+    color: rgb(212, 207, 207);
+}
 .wrapper{
    
-    background-color: rgb(220, 230, 245);
+    height: 250px;
+    background: url(images/rolex.jpg) no-repeat center;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
 }
 .titulo{
     font-size: xx-large;
